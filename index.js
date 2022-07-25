@@ -1,12 +1,7 @@
 
-// $(document).ready({
-//     $(window).scroll(function() 
-//     {
-//         if($(window).scrollTop()){
-//             $("nav").addClass("sticky navbarOffsetMargin");
-//         }
-//         else{
-//             $('nav').removeClass("sticky navbarOffsetMargin");
-//         }
-//     })
-// })
+
+    // $("#cv-download").on('click', function () {
+        
+    //     attr({target: '_blank', 
+    // href  : 'file/cv_smriti_karki.pdf'});
+    // })

@@ -52,7 +52,7 @@ h5{
     font-family: "Montserrat";
     font-weight: 500;
     line-height: 0.6rem;
-    color: rgb(86 91 172);
+    color: #0583d2;
     padding-top: 5%;
 }
 .fa{
@@ -80,6 +80,15 @@ h5{
 .date{
     color:rgb(127, 127, 127);
     font-style: italic;
+}
+
+/* cv */
+
+#cv-download a {
+    text-decoration: none;
+} 
+cv-download a:hover{
+    color:blue;
 }
 /*nav bar */
 
@@ -190,6 +199,11 @@ h5{
     text-align: center;
  
 }
+
+.languages-used{
+    color:grey;
+    padding-top: 5%;
+}
 .team p {
     font-size: 0.9rem;
     margin:0;
@@ -244,22 +258,71 @@ margin-bottom: 5%;
     background-color:#4d81d2;
     
 }
-
-#skills{
+#skill{
     text-align: center;
 }
 
+
 .gridSkill {
   margin:auto ;
-  margin-bottom: 3px;
-    display: flex;
-   justify-content:center;
-  
+  margin-bottom: 3rem;
    width: 60%;
 }
 .skills{
     font-size: 1.3rem;
     color: #0583d2;
+}
+.html-bar{
+   
+    background-color: #0583d2;
+    width: 60%;
+    border-radius: 5%;
+    height: 25px;
+    
+}
+.html-bar{
+   
+    background-color: #0583d2;
+    width: 70%;
+    border-radius: 5%;
+    height: 25px;
+    
+}
+.cpp-bar{
+   
+    background-color: #0583d2;
+    width: 60%;
+    border-radius: 5%;
+    height: 25px;
+    
+}
+.js-bar{
+   
+    background-color: #0583d2;
+    width: 70%;
+    border-radius: 5%;
+    height: 25px;
+    
+}
+.illustrator-bar{
+   
+    background-color: #0583d2;
+    width: 50%;
+    border-radius: 5%;
+    height: 25px;
+    
+}
+.bar p {
+    position: relative;
+    color:#0583d2;
+
+    font-weight:bold;
+    right: -50rem;
+}
+.skill-bg{
+    background-color: #d2cfcf;
+    height: 25px;
+    
 }
 
 #footer a {
@@ -275,6 +338,16 @@ margin-bottom: 5%;
 .footer-link .fa{
     color:#d6c5c5;
     padding-right: 2%;
+    position: relative;
+    left:-3px;
+}
+.fa.fa-linkedin {
+    position: relative;
+    left:-10px;
+}
+.fa.fa-github{
+    position: relative;
+    left:-15px;
 }
 a:hover{
     color:red;
