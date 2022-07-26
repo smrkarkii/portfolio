@@ -87,8 +87,11 @@ h5{
 #cv-download a {
     text-decoration: none;
 } 
-cv-download a:hover{
-    color:blue;
+
+
+#cv-download a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
 }
 /*nav bar */
 
