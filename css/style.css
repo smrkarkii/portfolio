@@ -285,21 +285,40 @@ margin-bottom: 5%;
 
 /*footer */
 
-#footer{
+ #footers{
     height: 200px;
-    width: 100%;
     background-color:#0583d2;
     
 }
 h3.footer-name{
     color:white;
-   
+   text-align: center;
 }
 .footer-box{
-    width: 90%;
+    width: 100%;
     position: relative;
     top: 35%;
 }
+
+.footers{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    text-align: center;
+}
+.footers-link{
+    justify-content: center;
+    background-color:white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 0.9rem;
+    margin: 0.7rem;
+}
+
+/* skills-section */
 #skill{
     text-align: center;
 }
