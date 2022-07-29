@@ -132,6 +132,56 @@ h5{
     color:#0583d2;
 }
 
+/* responsive */
+@media (max-width:768px){
+    .head-name{
+        text-align: center;
+        font-family: Montserrat;
+        font-weight: 900;
+        font-size:x-large;
+    }
+    .navbar-toggler-icon{
+        width:100px;
+        margin:auto;
+        text-align: center;
+    }
+    #title p{
+        text-align: center;
+        font-size:large;
+    }
+    h1{
+       
+        font-family: Montserrat;
+        font-weight: 900;
+        font-size:x-large;
+    }
+    h2{
+       
+        font-family: Montserrat;
+        font-weight:700;
+        font-size:larger;
+
+    }
+    h5{
+        
+        font-family: Montserrat;
+        font-weight:500;
+        font-size:large;
+    }
+    .text-block{
+        text-align: center;
+    }
+    .navbar-collapse{
+        text-align:center;
+    }
+    #cv-download{
+        margin:1rem;
+    }
+    .education-title, .experience-title{
+        padding-left: 5%;
+    }
+    
+}
 
 
 /* title section */
@@ -154,11 +204,12 @@ h5{
 
 
 /*education */
+
 .education-title-second{
     padding-top: 1%;
 }
 .edu-box{
-    margin:0 0rem 1.5rem 1rem;
+    margin:0 0 1.5rem 1rem;
 }
 .ed-row{
     width:80%;
@@ -269,13 +320,26 @@ margin-bottom: 5%;
     color:#b7b8b8;
     
 }
-
 .login .inputName {
     width:49%;
 }
 .login{
     padding-top: 3%;
 }
+
+@media (min-width:900){
+    .login .inputName {
+        width:49%;
+    }
+    .login{
+        padding-top: 3%;
+    }
+
+
+    
+
+}
+
 
 /*footer */
 
@@ -319,6 +383,21 @@ h3.footer-name{
    
     margin: 0.7rem; 
 }
+@media (max-width:768px) {
+    .inputName , .inputEmail, .inputMessage {
+        width:200px;
+        margin:2px;
+    
+    }
+    .contactButton{
+        font-size: 1rem;
+        padding:5px 20px;
+    }
+   
+}
+
+
+
 
 /* skills-section */
 #skill{
