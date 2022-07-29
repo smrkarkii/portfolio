@@ -24,6 +24,7 @@ p{
 }
 
 body{
+    
    font-family: "Montserrat";
    
 }
@@ -96,10 +97,7 @@ h5{
 } 
 
 
-#cv-download a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
+
 /*nav bar */
 
 .navbar-brand{
@@ -109,21 +107,17 @@ h5{
 }
 .navbar{
    padding:50px 150px; 
- 
-  
+   background-color: white;
+   z-index: 1;
+   margin-bottom: 50px;
 }
-
-.navbarOffsetMargin {
-    padding-top: 45px;
-  }
-
-    .sticky {
-        position: fixed;
-        top: 0;
-        width: 100%;
-        background-color: red;
-      }
-      
+.fixed-nav{
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    padding: 20px 150px;
+    background-color: rgb(245 247 249);
+}
 
 .navbar-nav{
    
@@ -290,6 +284,18 @@ margin-bottom: 5%;
     background-color:#0583d2;
     
 }
+#footers i {
+    background: white;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  color:#06588b;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+}
 h3.footer-name{
     color:white;
    text-align: center;
@@ -309,13 +315,9 @@ h3.footer-name{
     text-align: center;
 }
 .footers-link{
-    justify-content: center;
-    background-color:white;
-    border-radius: 50%;
-    height: 50px;
-    width: 50px;
-    padding: 0.9rem;
-    margin: 0.7rem;
+
+   
+    margin: 0.7rem; 
 }
 
 /* skills-section */
@@ -386,30 +388,7 @@ h3.footer-name{
     
 }
 
-#footer a {
-    display: block;
-    color:#423f3f;
-    text-decoration: none;
-    text-align: center;
-   
-}
-.footer{
-   text-align: center;
-}
-.footer-link .fa{
-    color:#d6c5c5;
-    padding-right: 2%;
-    position: relative;
-    left:-3px;
-}
-.fa.fa-linkedin {
-    position: relative;
-    left:-10px;
-}
-.fa.fa-github{
-    position: relative;
-    left:-15px;
-}
+
 a:hover{
-    color:red;
+    text-decoration: none;
 }
