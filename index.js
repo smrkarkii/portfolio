@@ -18,11 +18,24 @@
 //           document.getElementById('navbar-top').classList.add('fixed-nav');
 //           // add padding top to show content behind navbar
 //           navbar_height = document.querySelector('.navbar').offsetHeight;
-//           document.body.style.paddingTop = navbar_height + 'px';
-//         } else {
+//          // document.getElementById = "second-content".style.marginTop = navbar_height + 'px';
+//           body.style.paddingTop = "second-content".style.marginTop = navbar_height + 'px';
+//         } else if(this.window.scrollY < 50){
 //           document.getElementById('navbar_top').classList.remove('fixed-nav');
 //            // remove padding top from body
 //           document.body.style.paddingTop = '0';
 //         } 
 //     });
 //   }); 
+$(document).ready(function () {
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 50) {
+       $('#navbar-top').addClass('fixed-nav');
+      //  navbar_height = document.querySelector('.navbar').offsetHeight;
+      //  $(".second-content").css("padding-top",'300px')
+    } else {
+       $('#navbar-top').removeClass('fixed-nav');
+    }
+  });
+
+})

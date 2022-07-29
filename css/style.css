@@ -24,7 +24,7 @@ p{
 }
 
 body{
-    overflow: hidden;
+    
    font-family: "Montserrat";
    
 }
@@ -97,10 +97,7 @@ h5{
 } 
 
 
-#cv-download a:hover, a:focus, a:active {
-    text-decoration: none;
-    color: inherit;
-}
+
 /*nav bar */
 
 .navbar-brand{
@@ -111,6 +108,15 @@ h5{
 .navbar{
    padding:50px 150px; 
    background-color: white;
+   z-index: 1;
+   margin-bottom: 50px;
+}
+.fixed-nav{
+    position: fixed;
+    margin-top: 0;
+    width: 100%;
+    padding: 20px 150px;
+    background-color: rgb(245 247 249);
 }
 
 .navbar-nav{
