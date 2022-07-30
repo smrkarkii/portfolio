@@ -106,7 +106,7 @@ h5{
     font-size: 1.5rem;
 }
 .navbar{
-   padding:50px 150px; 
+   padding:20px 150px; 
    background-color: white;
    z-index: 1;
    margin-bottom: 50px;
@@ -186,11 +186,10 @@ h5{
 
 .gridContainer{
     display: grid;
-    grid-template-columns: 40% 40%;
-    column-gap: 3rem;
-    row-gap: 1rem;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1.5rem;
     text-align: center;
-    padding: 2% 10%;
+    padding: 2% 3%;
     justify-content: center;
  }
 .gridItems{
@@ -200,6 +199,7 @@ h5{
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
     background-color: #ffffff;
     padding: 5%;
+    width:90%;
 }
     
     
@@ -272,9 +272,7 @@ margin-bottom: 5%;
     color:#b7b8b8;
     
 }
-.login .inputName {
-    width:49%;
-}
+
 .login{
     padding-top: 3%;
 }
@@ -399,7 +397,7 @@ a:hover{
 }
 @media (max-width:768px) {
     .inputName , .inputEmail, .inputMessage {
-        width:200px;
+        width:100%;
         margin:2px;
     
     }
@@ -450,6 +448,11 @@ a:hover{
             font-size:larger;
     
         }
+        h3{
+            font-family: Montserrat;
+            font-weight:600;
+            font-size:large;
+        }
         #projects h2{
             font-size: 1.3rem;
             font-weight: bolder;
@@ -489,7 +492,12 @@ a:hover{
         .bar p{
             font-size: 0.7rem;
         }
+        /* making grid resp */
+        .gridContainer { grid-template-columns: repeat(1, 1fr); }
         
+        #second-content{
+            margin-top: 10px;
+        }
     }
 
     @media (min-width:900){
@@ -499,6 +507,9 @@ a:hover{
         .login{
             padding-top: 3%;
         }
+
+        .gridContainer { grid-template-columns: repeat(2, 1fr); }
+
     
     
         
