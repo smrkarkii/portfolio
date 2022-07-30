@@ -1,6 +1,7 @@
 *{
     margin:0px;
     padding: 0;
+    box-sizing: border-box;
 }
 p{
     color:#999999;
@@ -59,7 +60,7 @@ h4{
 h5{
     font-family: "Montserrat";
     font-weight: 500;
-    line-height: 0.6rem;
+    line-height: 1.2rem;
     color: #0583d2;
     
 }
@@ -186,6 +187,7 @@ h5{
 
 .gridContainer{
     display: grid;
+
     grid-template-columns: repeat(2, 1fr);
     row-gap: 1.5rem;
     text-align: center;
@@ -246,6 +248,17 @@ h5{
     
     height: 80px;
     margin:auto;
+}
+/* responsive */
+@media (min-width:600px){
+    .gridContainer { grid-template-columns: repeat(1, 1fr); 
+    }
+}
+
+
+@media (min-width:900px){
+    .gridContainer{ grid-template-columns: repeat(2, 1fr); 
+}
 }
 /* contact me*/
 #contact-me{
