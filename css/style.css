@@ -59,7 +59,7 @@ h4{
 h5{
     font-family: "Montserrat";
     font-weight: 500;
-    line-height: 0.6rem;
+    line-height: 1rem;
     color: #0583d2;
     
 }
@@ -149,7 +149,7 @@ h5{
     border-radius: 50%;
     display: block;
     margin:auto;
-    height: 300px;
+    height: auto;
   
 }
 
@@ -164,13 +164,15 @@ h5{
     margin:0 0 1.5rem 1rem;
 }
 .ed-row{
-    width:80%;
+    width:100%;
+    padding:2% 5%;
     box-shadow:0 0 5px 0px rgba(0, 0, 0, 0.2);
     margin:auto;
     margin-bottom: 20px;
 }
 .ex-row{
-    width:80%;
+    width:100%;
+    padding:2% 5%;
     box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0.2);
     margin:auto;
 }
@@ -242,23 +244,27 @@ h5{
     color:#999999;
 }
 .header{
-   
-    
-    height: 80px;
+    height: 40px;
     margin:auto;
 }
 /* contact me*/
 #contact-me{
 
-
+width:90%;
 padding:3% 10%;
-width:60%;
 margin:auto;
 text-align: center;
-box-shadow:3px 3px 5px 0px rgba(0, 0, 0, 0.2);
+box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+
 margin-bottom: 5%;
 }
 
+.contact-me{
+    
+    width: 60%;
+    margin: auto;
+    padding: 2% 10%;
+}
 .contactButton{
     font-size: 1.2rem;
     padding: 10px 50px;
@@ -332,15 +338,22 @@ h3.footer-name{
 
 
 /* skills-section */
+#skills{
+    /* text-align: center; */
+    width:90%;
+    margin:auto;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+}
 #skill{
     text-align: center;
 }
 
 
 .gridSkill {
-  margin:auto ;
-  margin-bottom: 3rem;
-   width: 60%;
+    margin: auto;
+    margin-bottom: 3rem;
+    width: 100%;
+    padding: 4% 10%;
 }
 .skills{
     font-size: 1.3rem;
@@ -500,8 +513,12 @@ a:hover{
         /* making grid resp */
         .gridContainer { grid-template-columns: repeat(1, 1fr); }
         
-        #second-content{
+        .title-col{
             margin-top: 10px;
+        }
+        .image-col img{
+            height:200px;
+            width:200px;
         }
     }
 
