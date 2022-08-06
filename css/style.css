@@ -571,6 +571,10 @@ a:hover{
         .title-col{
             margin-top: 10px;
         }
+        .header-about p{
+            /* width:90%; */
+            margin:auto;
+        }
         .image-col img{
             height:200px;
             width:200px;
@@ -590,6 +594,7 @@ a:hover{
     grid-template-columns: repeat(1, 1fr);
    
     }
+    
 }
 @media (max-width:600px){
     .gridContainer { grid-template-columns: repeat(1, 1fr); 
@@ -619,10 +624,7 @@ a:hover{
             grid-auto-flow: row;
             grid-template-columns: 450px, 450px;
         }
-        .header-about p{
-            width:80%;
-            margin:auto;
-        }
+        
 
          }
        
