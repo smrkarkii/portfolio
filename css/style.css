@@ -85,11 +85,7 @@ h5{
     
 }
 
-@media (max-width: 480) {
-   .text-block{
-       text-align: center;
-   }
-  }
+
 /* about me page */
 #about-me{
     background-color: #002135;
@@ -215,6 +211,13 @@ h5{
 #experiences, #educations{
    
 }
+.edu-exp{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 450px, 450px;
+    column-gap: 3rem;
+    justify-content: center;
+}
 
 .gridContainer{
     display: grid;
@@ -287,17 +290,7 @@ h5{
 }
 /* responsive */
 /* for phones */
-@media (max-width:600px){
-    .gridContainer { grid-template-columns: repeat(1, 1fr); 
-    }
-}
 
-
-
-@media (min-width:900px){
-    .gridContainer{ grid-template-columns: 450px 450px;
-}
-}
 /* contact me*/
 #contact-me{
 
@@ -336,7 +329,10 @@ margin-bottom: 5%;
 }
 
 
-
+.header-about p{
+    width:80%;
+    margin:auto;
+}
 /*footer */
 
  #footers{
@@ -463,12 +459,8 @@ a:hover{
 .inputName {
     width:49%
 }
-/* .edu-exp{
-    display: grid;
-    grid-auto-flow: column;
-    justify-content: center;
-    grid-template-columns: 450px 450px;
-} */
+
+
 @media (max-width:768px) {
     .inputName , .inputEmail, .inputMessage {
         width:100%;
@@ -594,12 +586,24 @@ a:hover{
     .education-title , .experience-title{
         padding-left: 0;
     }
-
+/* mobile */
 .edu-exp{
     display: grid;
-    justify-content: center;
+    grid-auto-flow: row;
+    grid-template-columns: repeat(1, 1fr);
    
     }
+}
+@media (max-width:600px){
+    .gridContainer { grid-template-columns: repeat(1, 1fr); 
+    }
+}
+
+
+
+@media (min-width:900px){
+    .gridContainer{ grid-template-columns: 450px 450px;
+}
 }
 
     @media (min-width:900){
@@ -612,11 +616,11 @@ a:hover{
         .head-10{
             font-size: 60px;
         }
+        /* laptop */
         .edu-exp{
             display: grid;
-            grid-auto-flow: column;
-            justify-content: center;
-            grid-template-columns: 450px 450px;
+            grid-auto-flow: row;
+            grid-template-columns: 450px, 450px;
         }
 
          }
@@ -624,4 +628,8 @@ a:hover{
 
    
     
-    
+         @media (max-width: 480) {
+            .text-block{
+                text-align: center;
+            }
+           }
