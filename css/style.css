@@ -463,6 +463,12 @@ a:hover{
 .inputName {
     width:49%
 }
+/* .edu-exp{
+    display: grid;
+    grid-auto-flow: column;
+    justify-content: center;
+    grid-template-columns: 450px 450px;
+} */
 @media (max-width:768px) {
     .inputName , .inputEmail, .inputMessage {
         width:100%;
@@ -489,6 +495,7 @@ a:hover{
    
   
     }
+
 
     @media (max-width:768px){
         .head-name{
@@ -590,7 +597,6 @@ a:hover{
 
 .edu-exp{
     display: grid;
-    grid-auto-flow: row;
     justify-content: center;
    
     }
@@ -606,12 +612,16 @@ a:hover{
         .head-10{
             font-size: 60px;
         }
+        .edu-exp{
+            display: grid;
+            grid-auto-flow: column;
+            justify-content: center;
+            grid-template-columns: 450px 450px;
+        }
 
-        
-    
-    
-        
-    
-    }
+         }
+       
+
+   
     
     
