@@ -329,10 +329,7 @@ margin-bottom: 5%;
 }
 
 
-.header-about p{
-    width:80%;
-    margin:auto;
-}
+
 /*footer */
 
  #footers{
@@ -621,6 +618,10 @@ a:hover{
             display: grid;
             grid-auto-flow: row;
             grid-template-columns: 450px, 450px;
+        }
+        .header-about p{
+            width:80%;
+            margin:auto;
         }
 
          }
