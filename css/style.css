@@ -131,7 +131,12 @@ h5{
 
 
 /*nav bar */
-
+.nav-link:hover{
+    transform: scale(1.2);
+}
+.gridItems:hover{
+    transform: scale(1.2);
+}
 .navbar-brand{
     font-family: "Montserrat";
     font-weight: 900;
@@ -142,14 +147,17 @@ h5{
    background-color: #002135;
    z-index: 1;
    margin-bottom: 50px;
+   opacity: 95%;
 }
 
 .fixed-nav{
     position: fixed;
     margin-top: 0;
     width: 100%;
-    padding: 20px 150px;
-    background-color: rgb(245 247 249);
+    padding:15px 150px; 
+    background-color: #002135;
+    z-index: 1;
+
 }
 
 .navbar-nav{
@@ -231,6 +239,7 @@ h5{
     margin: 0 2%;
     justify-content: center;
  }
+ 
 .gridItems{
    
     text-align: center;
@@ -334,7 +343,7 @@ margin-bottom: 5%;
 
  #footers{
     height: 200px;
-    background-color:#0583d2;
+    background-color:#002135;
     
 }
 #footers i {
@@ -383,9 +392,10 @@ h3.footer-name{
 /* skills-section */
 #skills{
     /* text-align: center; */
-    width:90%;
+    
     margin:auto;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+    background-color: #002135;
 }
 #skill{
     text-align: center;
@@ -448,10 +458,15 @@ h3.footer-name{
     position:relative;
     
 }
+.btn{
+    background-color:#007dca;
+}
 
 
 a:hover{
-    text-decoration: none;
+    text-decoration:underline;
+   color:white;
+   
 }
 .inputName {
     width:49%
@@ -624,6 +639,12 @@ a:hover{
             grid-auto-flow: row;
             grid-template-columns: 450px, 450px;
         }
+        .gridItems:hover{
+            transform: scale(1.3);
+         }
+         .nav-link:hover{
+            transform: scale(1.3);
+         }
         
 
          }
@@ -636,3 +657,7 @@ a:hover{
                 text-align: center;
             }
            }
+
+       a{
+        color:white;
+       }

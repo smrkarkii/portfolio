@@ -27,16 +27,16 @@
 // //         } 
 // //     });
 // //   }); 
-// $(document).ready(function () {
-//   $(window).scroll(function(){
-//     if ($(this).scrollTop() > 50) {
-//        $('#navbar-top').addClass('fixed-nav');
-//       //  navbar_height = document.querySelector('.navbar').offsetHeight;
-//       //  $(".second-content").css("padding-top",'300px')
-//     } else {
-//        $('#navbar-top').removeClass('fixed-nav');
-//     }
-//   });
+$(document).ready(function () {
+  $(window).scroll(function(){
+    if ($(this).scrollTop() > 0) {
+       $('#navbar-top').addClass('fixed-nav');
+      //  navbar_height = document.querySelector('.navbar').offsetHeight;
+      //  $(".second-content").css("padding-top",'300px')
+    } else {
+       $('#navbar-top').removeClass('fixed-nav');
+    }
+  });
 
-// })
+})
 
