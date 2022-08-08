@@ -1,7 +1,12 @@
-*{
+html {
+    scroll-behavior: smooth;
+  }
+
+  *{
     margin:0px;
     padding: 0;
     box-sizing: border-box;
+    
 }
 p{
     color:#999999;
@@ -216,9 +221,7 @@ h5{
    
     /* margin: 3%; */
 }
-#experiences, #educations{
-   
-}
+
 .edu-exp{
     display: grid;
     grid-auto-flow: column;
@@ -306,7 +309,7 @@ h5{
 padding:3% 10%;
 margin:auto;
 text-align: center;
-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
+/* box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2); */
 
 margin-bottom: 5%;
 }
