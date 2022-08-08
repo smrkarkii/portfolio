@@ -241,7 +241,7 @@ h5{
  }
  
 .gridItems{
-   
+   position:relative;
     text-align: center;
     justify-self: center;
     box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
@@ -322,6 +322,12 @@ margin-bottom: 5%;
     padding: 10px 50px;
     
 }
+.projectButton{
+   
+    font-size: 0.8rem;
+    margin-top: 10px;
+   
+}
 .input, .area {
 
     width:100%;
@@ -329,7 +335,7 @@ margin-bottom: 5%;
     border: 1px solid rgb(194, 193, 193);
     border-radius: 10px;
     margin-bottom: 2%;
-    color:#b7b8b8;
+    color:#000000;
     
 }
 
