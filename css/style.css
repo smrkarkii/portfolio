@@ -432,6 +432,14 @@ h3.footer-name{
     height: 25px;
     
 }
+.express-bar{
+   
+    background-color: #0583d2;
+    width: 30%;
+    
+    height: 25px;
+    
+}
 .cpp-bar{
    
     background-color: #0583d2;
@@ -582,7 +590,7 @@ a:hover{
             /* text-align: center; */
 
         }
-        .html-bar, .cpp-bar, .js-bar , .illustrator-bar{
+        .html-bar, .cpp-bar, .js-bar , .illustrator-bar, .express-bar{
             height: 15px;
         }
         .skill-bg{
@@ -739,7 +747,7 @@ a:hover{
             /* text-align: center; */
 
         }
-        .html-bar, .cpp-bar, .js-bar , .illustrator-bar{
+        .html-bar, .cpp-bar, .js-bar , .illustrator-bar, .express-bar{
             height: 15px;
         }
         .skill-bg{
