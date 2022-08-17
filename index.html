@@ -145,7 +145,7 @@
             <div class="edu-box">
               <h5><b>Shrijanshil Secondary English School</b></h5>
               <p><b>2008-2017</b></p>
-              <p>+2 Science</p>
+              <p>School Level</p>
             </div>
     
     
@@ -430,16 +430,19 @@
     <div class="contact-me">
       <form target="_black" href="index.html" action="https://formsubmit.co/dbac63d72b973e0ee9b49611bf083d05" method="POST">
         <div class="login">
-          <input name="fname" type="text" class="input inputName" placeholder="First Name" required>
-          <input name="lname" type="text" class=" input inputName" placeholder="Last Name">
+          <label for="fname">Full Name</label>
+          <input name="fname" type="text" class="input inputName" placeholder="" required>
+          <!-- <input name="lname" type="text" class=" input inputName" placeholder="Last Name"> -->
           <br>
-          <input name="sender-email" class=" input inputEmail" id="" cols="30" placeholder="Your Email" rows="1" required></input>
+          <label for="sender-email">Your email</label>
+          <input name="sender-email" class=" input inputEmail" id="" cols="30" placeholder="" rows="1" required></input>
         </div>
         <div class="msg">
+          <label for="message">Your Message</label>
           <textarea class="area inputMessage" name="message" id="" cols="30" rows="4"
-            placeholder="Your message"></textarea>
+            placeholder=""></textarea>
         </div>
-        <div class="btn send-message">
+        <div class="send-message">
           <button type="submit" href="" class="btn btn-primary contactButton">Send Message</button>
         </div>
   
