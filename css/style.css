@@ -496,6 +496,10 @@ a:hover{
 
 /* For mobiles */
 @media (max-width:480px) {
+    html {
+        scroll-behavior: smooth;
+      }
+
     .inputName , .inputEmail, .inputMessage {
         width:100%;
         margin:2px;
@@ -681,6 +685,9 @@ a:hover{
             and (max-device-width: 1024px) 
             and (orientation: portrait) 
             {
+                html {
+                    scroll-behavior: smooth;
+                  }
         .head-name{
             text-align: center;
             font-family: Montserrat;
