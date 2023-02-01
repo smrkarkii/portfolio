@@ -464,7 +464,19 @@ a:hover {
     font-size: 1rem;
     padding: 5px 20px;
   }
-
+  #achievements img {
+    width: 100px;
+    height: auto;
+  }
+  #achievements {
+    width: 80%;
+  }
+  .gridAchievements {
+    width: 100%;
+    padding: 5px;
+    margin: 0;
+    height: 250px;
+  }
   /* footers */
   #footers i {
     width: 30px;
