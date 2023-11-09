@@ -14,7 +14,7 @@ export default function Intro() {
                 <span className="head-1">Smriti Karki.</span>
               </b>
             </h5>
-            <p classNameName="title-desc" style={{ fontSize: "1.2rem" }}>
+            <p className="title-desc" style={{ fontSize: "1.2rem" }}>
               A Computer Engineering Student and a Tech Enthusiast.
             </p>
             <div className="cv-div">

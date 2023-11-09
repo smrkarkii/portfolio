@@ -1,0 +1,24 @@
+{
+  "skills": [
+    {
+      "title": "HTML/CSS",
+      "level": "70%"
+    },
+    {
+      "title": "C++",
+      "level": "60%"
+    },
+    {
+      "title": "JS",
+      "level": "70%"
+    },
+    {
+      "title": "Express JS",
+      "level": "30%"
+    },
+    {
+      "title": "Solidity",
+      "level": "40%"
+    }
+  ]
+}

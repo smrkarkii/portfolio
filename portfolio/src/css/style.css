@@ -553,13 +553,7 @@ a:hover {
     padding-left: 18px;
     /* text-align: center; */
   }
-  .html-bar,
-  .cpp-bar,
-  .js-bar,
-  .illustrator-bar,
-  .solidity-bar .express-bar {
-    height: 15px;
-  }
+
   .skill-bg {
     height: 15px;
   }
@@ -705,12 +699,12 @@ a {
     padding-left: 18px;
     /* text-align: center; */
   }
-  .html-bar,
-  .cpp-bar,
-  .js-bar,
-  .illustrator-bar,
-  .express-bar .solidity-bar {
+
+  .skill-bar {
     height: 15px;
+    background-color: #0583d2;
+
+    height: 25px;
   }
   .skill-bg {
     height: 15px;

@@ -1,0 +1,28 @@
+{
+  "experiences": [
+    {
+      "title": "WLiT Fellow",
+      "company": "Women Leaders in Technology",
+      "date": "2021-Present",
+      "desc": "9-month long fellowship on technical and leadership"
+    },
+    {
+      "title": "Event Manager",
+      "company": "Pulchowk Girls",
+      "date": "2022 June - Present",
+      "desc": "Plan and host events."
+    },
+    {
+      "title": "Volunteer Graphic Designer",
+      "company": "LOCUS, Pulchowk Campus",
+      "date": "2021-2022",
+      "desc": "IT Club, Pulchowk Campus"
+    },
+    {
+      "title": "Web-Dev Fellow",
+      "company": "Reduct Nepal",
+      "date": "July 2022 - Present",
+      "desc": "3 months long boot camp on Web Development"
+    }
+  ]
+}

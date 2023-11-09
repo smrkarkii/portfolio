@@ -1,4 +1,5 @@
-export default function About() {
+export default function About(props) {
+  let data = props.data;
   return (
     <section id="about-me">
       <div className="header-about">
@@ -60,43 +61,17 @@ export default function About() {
               </h3>
             </div>
             <div className="ex-box-main">
-              <div className="ex-box">
-                <h5>
-                  <b>Web-Dev Fellow</b>
-                </h5>
-                <p>
-                  <b>Reduct Nepal</b> | July 2022 - Present
-                </p>
-                <p>3 months long boot camp on Web Development</p>
-              </div>
-
-              <div className="ex-box">
-                <h5>
-                  <b>WLiT Fellow</b>
-                </h5>
-                <p>
-                  <b>Women Leaders in Technology</b> | 2021-Present
-                </p>
-                <p>9-month long fellowship on technical and leadership</p>
-              </div>
-              <div className="ex-box">
-                <h5>
-                  <b>Event Manager</b>
-                </h5>
-                <p>
-                  <b>Pulchowk Girls</b> | 2022 June - Present
-                </p>
-                <p>Plan and host events.</p>
-              </div>
-              <div className="ex-box">
-                <h5>
-                  <b>Volunteer Graphic Designer</b>
-                </h5>
-                <p>
-                  <b>LOCUS, Pulchowk Campus</b> | 2021-2022
-                </p>
-                <p>IT Club, Pulchowk Campus</p>
-              </div>
+              {data.experiences.map((experience) => (
+                <div className="ex-box">
+                  <h5>
+                    <b>{experience.title}</b>
+                  </h5>
+                  <p>
+                    <b>{experience.company}</b> | {experience.date}
+                  </p>
+                  <p>{experience.desc}</p>
+                </div>
+              ))}
             </div>
           </div>
         </div>
