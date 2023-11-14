@@ -42,7 +42,10 @@ export default function Contact() {
               ></textarea>
             </div>
             <div className="send-message">
-              <button type="submit" className="btn btn-primary contactButton">
+              <button
+                type="submit"
+                className="btn btn-outline-success contactButton"
+              >
                 Send Message
               </button>
             </div>

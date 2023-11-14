@@ -1,7 +1,7 @@
 import pp from "../images/smritikarki.jpg";
 export default function Intro() {
   return (
-    <div className="container-fluid">
+    <div className="container-fluid " id="intro">
       <div className="row title-row" id="second-content">
         <div className="image-col col col-md-6 col-xs-12">
           <img src={pp} style={{ borderRadius: "50%" }} />
@@ -18,7 +18,7 @@ export default function Intro() {
               A Computer Engineering Student and a Tech Enthusiast.
             </p>
             <div className="cv-div">
-              <button id="cv-download" className="btn ">
+              <button id="cv-download" className="btn btn-outline-success ">
                 {" "}
                 <i className="fa-solid fa-file-arrow-down"></i>
                 <a href="file/resume.pdf" download target="_blank">
