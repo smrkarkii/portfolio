@@ -1,5 +1,5 @@
 {
-  "home": "https://smrkarkii.github.io/portfolio",
+  "home": "https://www.smritikarki.com.np",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -19,7 +19,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-scripts -d build"
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
