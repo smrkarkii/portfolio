@@ -26,13 +26,13 @@ export default function Project(props) {
             </p>
             <div className="demo">
               <a href={project.demo} target="_blank">
-                <button className="btn btn-primary projectButton">
+                <button className="btn btn-success projectButton">
                   {" "}
                   Live Demo
                 </button>
               </a>
               <a href={project.source} target="_blank">
-                <button className="btn btn-primary projectButton">
+                <button className="btn btn-success projectButton">
                   {" "}
                   Source Code
                 </button>
