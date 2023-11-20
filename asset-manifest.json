@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0a1f726b.css",
+    "main.js": "/static/js/main.d8d6a53c.js",
+    "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
+    "static/media/smritikarki.jpg": "/static/media/smritikarki.b0170612ff827fc7e829.jpg",
+    "index.html": "/index.html",
+    "main.0a1f726b.css.map": "/static/css/main.0a1f726b.css.map",
+    "main.d8d6a53c.js.map": "/static/js/main.d8d6a53c.js.map",
+    "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0a1f726b.css",
+    "static/js/main.d8d6a53c.js"
+  ]
+}
