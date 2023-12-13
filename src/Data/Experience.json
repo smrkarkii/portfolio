@@ -1,6 +1,18 @@
 {
   "experiences": [
     {
+      "title": "Logistics Coordinator",
+      "company": "LOCUS, Pulchowk Campus",
+      "date": "2023-Present",
+      "desc": "OCUS is an umbrella organization led by final year engineering students(Computer, Electrical and Electronics) of Pulchowk Campus."
+    },
+    {
+      "title": "Membership Engagement Manager, Core Team",
+      "company": "Girls In Tech, Nepal",
+      "date": "2023-Present",
+      "desc": "GIT is a global non-profit organization working to bridge the gap between women and technology"
+    },
+    {
       "title": "WLiT Fellow",
       "company": "Women Leaders in Technology",
       "date": "2021-Present",
@@ -17,12 +29,6 @@
       "company": "LOCUS, Pulchowk Campus",
       "date": "2021-2022",
       "desc": "IT Club, Pulchowk Campus"
-    },
-    {
-      "title": "Web-Dev Fellow",
-      "company": "Reduct Nepal",
-      "date": "July 2022 - Present",
-      "desc": "3 months long boot camp on Web Development"
     }
   ]
 }

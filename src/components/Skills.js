@@ -14,7 +14,7 @@ export default function Skills(props) {
                 className="illustrator-bar bar skill-bar"
                 style={{ width: skill.level }}
               >
-                <p>{skill.level}</p>
+                <p>{skill.qual}</p>
               </div>
             </>
           ))}

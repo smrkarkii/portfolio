@@ -1,6 +1,22 @@
 {
   "projects": [
     {
+      "title": "ICTC Website",
+      "project-desc": "Built Event Management Website for ICTC of IOE.",
+      "lang": "MERN Stack",
+      "contrib": "Worked on backend and integration",
+      "source": "",
+      "demo": ""
+    },
+    {
+      "title": "Kasari Jaane, Major Project",
+      "project-desc": "A public transport mobile app which helps to navigate in Kathmandu Valley by showing all the available vehicles and routes inside valley.",
+      "lang": "Flutter and Node JS",
+      "contrib": "Working on backend",
+      "source": "",
+      "demo": ""
+    },
+    {
       "title": "Weather App",
       "project-desc": "Weather App shows the weather status of the current location if location permission is enabled and also for the searched locations using Open WeatherAPI. This is my solo project which I did in Reduct Bootcamp.",
       "lang": "HTML, CSS, JS",

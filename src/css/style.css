@@ -220,15 +220,12 @@ h5 {
 
 .gridContainer {
   display: grid;
-
-  grid-template-columns: repeat(2, 1fr);
-
-  row-gap: 1.5rem;
-  text-align: center;
-  padding: 2% 3%;
-  column-gap: 3rem;
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
   margin: 0 2%;
-  justify-content: center;
+  padding: 2% 3%;
+  row-gap: 4.5rem;
+  text-align: center;
 }
 
 .gridItems {
@@ -389,7 +386,7 @@ h3.footer-name {
 .gridSkill {
   margin: auto;
   margin-bottom: 3rem;
-  width: 100%;
+  /* width: 70%; */
   padding: 4% 10%;
 }
 .skills {
@@ -434,8 +431,9 @@ h3.footer-name {
   position: absolute;
   color: #198754;
 
-  font-weight: bold;
-  right: 2rem;
+  font-weight: normal;
+  font-style: italic;
+  right: 7rem;
 }
 .skill-bg {
   background-color: #d2cfcf;
