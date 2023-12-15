@@ -1,4 +1,7 @@
 import React from "react";
+import prastabImage1 from "../images/prastab.jpg";
+import prastabImage2 from "../images/prastab2.jpg";
+
 export default function Achievement(props) {
   let data = props.data;
 
@@ -16,20 +19,22 @@ export default function Achievement(props) {
                   className="img-achievement"
                   width="auto"
                   height="250"
-                  src={achievement.images[0]}
+                  src={prastabImage1}
                   alt=""
                 />
                 <img
                   className="img-achievement"
                   width="auto"
                   height="250"
-                  src={achievement.images[1]}
+                  src={prastabImage2}
                   alt=""
                 />
               </div>
 
               <h2>{achievement.title}</h2>
-              <h5>{achievement.event}</h5>
+              <h5 style={{ color: "white", textDecoration: "none" }}>
+                {achievement.event}
+              </h5>
             </div>
           </a>
         ))}

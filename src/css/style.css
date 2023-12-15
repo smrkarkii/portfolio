@@ -254,7 +254,7 @@ h5 {
   background-color: black;
 }
 #footers {
-  background-color: #393434;
+  background-color: #196743;
 }
 #projects h2 {
   font-family: "Montserrat";
@@ -486,7 +486,7 @@ a:hover {
     background-color: black;
   }
   #footers {
-    background-color: #393434;
+    background-color: #196743;
   }
   html {
     scroll-behavior: smooth;
@@ -648,7 +648,7 @@ a:hover {
     background-color: black;
   }
   #footers {
-    background-color: #232323;
+    background-color: #196743;
   }
   .gridContainer {
     grid-template-columns: 450px 450px;
@@ -694,7 +694,7 @@ a {
     background-color: black;
   }
   #footers {
-    background-color: #393434;
+    background-color: #196743;
   }
   html {
     scroll-behavior: smooth;
