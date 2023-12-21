@@ -224,7 +224,7 @@ h5 {
   grid-template-columns: repeat(3, 1fr);
   margin: 0 2%;
   padding: 2% 3%;
-  row-gap: 4.5rem;
+  row-gap: 2rem;
   text-align: center;
 }
 
@@ -236,6 +236,8 @@ h5 {
   /* background-color: #ffffff; */
   /* changed dark mode */
   padding: 5% 3%;
+  height: 200px;
+  width: 350px;
 }
 
 .project-desc {
@@ -429,11 +431,12 @@ h3.footer-name {
 }
 .bar p {
   position: absolute;
-  color: #198754;
+  color: rgb(166, 156, 156);
 
   font-weight: normal;
   font-style: italic;
-  right: 7rem;
+  right: 10%;
+  margin: 0 auto;
 }
 .skill-bg {
   background-color: #d2cfcf;
@@ -606,6 +609,11 @@ a:hover {
   .gridContainer {
     grid-template-columns: repeat(1, 1fr);
   }
+  .gridItems {
+    width: 280px;
+    height: 220px;
+    row-gap: 1rem;
+  }
 
   .title-col {
     margin-top: 10px;
@@ -632,6 +640,9 @@ a:hover {
     display: grid;
     grid-auto-flow: row;
     grid-template-columns: repeat(1, 1fr);
+  }
+  #experiences {
+    margin-top: -50px;
   }
 }
 /* tablet */

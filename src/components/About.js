@@ -11,7 +11,7 @@ export default function About(props) {
           <b>ABOUT ME</b>{" "}
         </h2>
         <p>
-          I am a 5th-semester Computer Engineering student at Pulchowk Campus. I
+          I am a 8th-semester Computer Engineering student at Pulchowk Campus. I
           am interested in <b>Web Development.</b> I love playing Football,
           Basketball, and Table Tennis. My other hobbies are dancing, traveling,
           trekking, and hiking.
