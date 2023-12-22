@@ -19,13 +19,13 @@ export default function Intro() {
               </h5>
               <p
                 className="title-desc"
-                style={{ fontSize: "1.2rem", color: "#0" }}
+                style={{ fontSize: "1.5rem", color: "white" }}
               >
                 A Computer Engineering Student and a Tech Enthusiast.
               </p>
             </div>
             <div className="cv-div">
-              <button id="cv-download" className="btn btn-outline-light ">
+              <button id="cv-download" className="btn btn-outline-success ">
                 {" "}
                 <i className="fa-solid fa-file-arrow-down"></i>
                 <a href="file/resume.pdf" download target="_blank">

@@ -2,7 +2,7 @@ const Navbar = () => {
   return (
     <nav
       id="navbar-top"
-      className="navbar navbar-expand-sm navbar-dark   "
+      className="navbar navbar-expand-sm navbar-dark sticky-top  "
       style={{ color: "#0583d2", backgroundColor: "black" }}
     >
       <a href="/" className="navbar-brand head-name">

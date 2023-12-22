@@ -7,9 +7,12 @@ export default function Achievement(props) {
 
   return (
     <section id="achievements">
-      <h2>
-        <b style={{ color: "white", padding: "20px" }}>ACHIEVEMENT</b>
-      </h2>
+      <div className="achievementHeader">
+        <h2>
+          <b style={{ color: "white" }}>ACHIEVEMENT</b>
+        </h2>
+      </div>
+
       <div className="gridAchievements">
         {data.achievements.map((achievement, index) => (
           <a

@@ -6,10 +6,12 @@ export default function About(props) {
 
   return (
     <section id="about-me">
-      <div className="header-about">
+      <div className="aboutMeHeader">
         <h2>
           <b>ABOUT ME</b>{" "}
         </h2>
+      </div>
+      <div className="header-about">
         <p>
           I am a 8th-semester Computer Engineering student at Pulchowk Campus. I
           am interested in <b>Web Development.</b> I love playing Football,
