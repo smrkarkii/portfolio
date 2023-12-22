@@ -28,7 +28,7 @@ export default function Intro() {
               <button id="cv-download" className="btn btn-outline-success ">
                 {" "}
                 <i className="fa-solid fa-file-arrow-down"></i>
-                <a href="file/resume.pdf" download target="_blank">
+                <a href="../file/resume.pdf" download target="_blank">
                   Download CV
                 </a>
               </button>
