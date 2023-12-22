@@ -8,11 +8,16 @@ export default function Achievement(props) {
   return (
     <section id="achievements">
       <h2>
-        <b>ACHIEVEMENT</b>
+        <b style={{ color: "white", padding: "20px" }}>ACHIEVEMENT</b>
       </h2>
       <div className="gridAchievements">
         {data.achievements.map((achievement, index) => (
-          <a href={achievement.link} target="_blank" key={index}>
+          <a
+            href={achievement.link}
+            target="_blank"
+            key={index}
+            style={{ textDecoration: "none" }}
+          >
             <div className="prastab">
               <div className="img-container">
                 <img
@@ -31,8 +36,8 @@ export default function Achievement(props) {
                 />
               </div>
 
-              <h2>{achievement.title}</h2>
-              <h5 style={{ color: "white", textDecoration: "none" }}>
+              <h2 style={{ color: "white" }}>{achievement.title}</h2>
+              <h5 style={{ color: "rgb(138 138 138)", fontStyle: "italic" }}>
                 {achievement.event}
               </h5>
             </div>
