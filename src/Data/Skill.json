@@ -1,29 +1,30 @@
 {
   "skills": [
     {
-      "title": "HTML/CSS",
+      "title": "HTML",
       "level": "80%",
       "qual": "Experienced"
     },
     {
-      "title": "C++",
-      "level": "60%",
-      "qual": "Intermediate"
+      "title": "React JS",
+      "level": "80%",
+      "qual": "Experienced"
     },
+    {
+      "title": "CSS",
+      "level": "80%",
+      "qual": "Experienced"
+    },
+
     {
       "title": "JS",
       "level": "60%",
       "qual": "Intermediate"
     },
     {
-      "title": "Express JS",
+      "title": "Node JS",
       "level": "60%",
       "qual": "Intermediate"
-    },
-    {
-      "title": "Solidity",
-      "level": "40%",
-      "qual": "Begineer"
     }
   ]
 }

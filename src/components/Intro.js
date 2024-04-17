@@ -1,5 +1,24 @@
+import { useEffect, useState } from "react";
+import { Typewriter } from "react-simple-typewriter";
+
 import pp from "../images/smritikarki.jpg";
 export default function Intro() {
+  // const [name, setName] = useState("Smriti Karki.");
+  var text = "Smriti Karki.";
+  const [displayText, setDisplayText] = useState("");
+  useEffect(() => {
+    let currentIndex = 0;
+    const intervalId = setInterval(() => {
+      if (currentIndex <= text.length) {
+        setDisplayText(text.slice(0, currentIndex));
+        currentIndex++;
+      } else {
+        clearInterval(intervalId);
+      }
+    }, 200);
+
+    return () => clearInterval(intervalId);
+  }, [text]);
   return (
     <div className="container-fluid " id="intro">
       <div className="introContainer">
@@ -14,7 +33,7 @@ export default function Intro() {
               </p>
               <h5 className="head-10" style={{ color: "black" }}>
                 <b>
-                  <span className="head-1">Smriti Karki.</span>
+                  <span className="head-1">{displayText}</span>
                 </b>
               </h5>
               <p

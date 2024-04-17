@@ -703,6 +703,9 @@ a:hover {
   #experiences {
     margin-top: -50px;
   }
+  .skill-title {
+    color: white;
+  }
 }
 /* tablet */
 
@@ -746,6 +749,14 @@ a:hover {
   }
   .nav-link:hover {
     /* transform: scale(1.01); */
+  }
+
+  .logo-skills {
+    width: 20px;
+    height: 10px;
+  }
+  span.skill-title {
+    color: white;
   }
 }
 

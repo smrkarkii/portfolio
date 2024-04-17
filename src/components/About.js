@@ -11,14 +11,14 @@ export default function About(props) {
           <b>ABOUT ME</b>{" "}
         </h2>
       </div>
-      <div className="header-about">
+      {/* <div className="header-about">
         <p>
-          I am a 8th-semester Computer Engineering student at Pulchowk Campus. I
+          I am a recent Computer Engineering graduate from Pulchowk Campus. I
           am interested in <b>Web Development.</b> I love playing Football,
           Basketball, and Table Tennis. My other hobbies are dancing, traveling,
           trekking, and hiking.
         </p>
-      </div>
+      </div> */}
 
       <div className="edu-exp">
         <div id="educations">
@@ -34,7 +34,7 @@ export default function About(props) {
                   <b>Pulchowk Campus</b>
                 </h5>
                 <p>
-                  <b>2020-Present</b>
+                  <b>2020-2024</b>
                 </p>
                 <p>Bachelors in Computer Engineering</p>
               </div>
