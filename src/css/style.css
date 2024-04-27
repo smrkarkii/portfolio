@@ -2,13 +2,13 @@
   background-color: #000000;
 } */
 body {
-  background-color: black;
+  background-color: rgb(26, 25, 25);
 }
 html {
   scroll-behavior: smooth;
 }
 .intro {
-  background-color: #000000;
+  background-color: rgb(26, 25, 25);
 }
 /* Add this to your stylesheet */
 .navbar-hidden {
@@ -105,7 +105,7 @@ h5 {
   /* background-color: #002135; */
   /* #darkmode changed */
   color: white;
-  background-color: black;
+  background-color: rgb(26, 25, 25);
 }
 #about-me .header-about {
   width: 70%;
@@ -116,7 +116,7 @@ h5 {
 }
 
 #about-me .aboutMeHeader {
-  background-color: black;
+  background-color: rgb(26, 25, 25);
   box-shadow: 0px 0px 5px 1px #10482e;
   width: 40%;
   margin: auto;
@@ -204,7 +204,7 @@ h5 {
   height: 575px;
 }
 .introContainer {
-  background-color: black;
+  background-color: rgb(26, 25, 25);
   /* height: 650px; */
 }
 
@@ -269,7 +269,7 @@ h5 {
   text-align: center;
   justify-self: center;
   box-shadow: 0 0 5px 1px rgba(0, 164, 57, 0.46);
-  background-color: black;
+  background-color: rgb(26, 25, 25);
   /* changed dark mode */
   padding: 5% 3%;
   height: 200px;
@@ -289,14 +289,14 @@ h5 {
 #achievements,
 #skills,
 #contact-me {
-  background-color: black;
+  background-color: rgb(26, 25, 25);
 }
 #projects {
   background-color: #198754;
   height: 585px;
 }
 #achievements {
-  background-color: black;
+  background-color: rgb(26, 25, 25);
 }
 #footers {
   background-color: #196743;
