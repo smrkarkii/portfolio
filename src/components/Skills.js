@@ -26,6 +26,13 @@ export default function Skills(props) {
       <div className="gridSkill">
         <h2 id="skill">
           <b>SKILLS</b>
+          <hr
+            style={{
+              color: "white",
+              width: "22%",
+              margin: 0,
+            }}
+          />
         </h2>
         <h6 className="skill-type" style={{ color: "white" }}>
           Languages

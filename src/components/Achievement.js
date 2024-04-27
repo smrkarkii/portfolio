@@ -20,6 +20,7 @@ export default function Achievement(props) {
             target="_blank"
             key={index}
             style={{ textDecoration: "none" }}
+            rel="noreferrer"
           >
             <div className="prastab">
               <div className="img-container">
@@ -39,7 +40,7 @@ export default function Achievement(props) {
                 />
               </div>
 
-              <h2 style={{ color: "white" }}>{achievement.title}</h2>
+              <h3 style={{ color: "white" }}>{achievement.title}</h3>
               <h5 style={{ color: "rgb(138 138 138)", fontStyle: "italic" }}>
                 {achievement.event}
               </h5>

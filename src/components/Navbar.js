@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav
       id="navbar-top"
       className="navbar navbar-expand-sm navbar-dark sticky-top  "
-      style={{ color: "#0583d2", backgroundColor: "black" }}
+      style={{ color: "#0583d2" }}
     >
       <a href="/" className="navbar-brand head-name">
         SmritiKarki{" "}
@@ -19,7 +19,7 @@ const Navbar = () => {
         <ul className="navbar-nav ml-auto" style={{ marginLeft: "auto" }}>
           <li className="nav-item">
             <a className="nav-link" href="#about-me">
-              About Me
+              About
             </a>
           </li>
 

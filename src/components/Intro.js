@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { Typewriter } from "react-simple-typewriter";
 
 import pp from "../images/smritikarki.jpg";
 export default function Intro() {

@@ -65,9 +65,9 @@ h1,
 
 h2 {
   font-family: "Montserrat";
-  font-weight: 700;
+  /* font-weight: 700; */
   line-height: 1.2em;
-  color: #198754;
+  /* color: #198754; */
 }
 h3 {
   font-family: "Montserrat";
@@ -80,14 +80,14 @@ h4 {
   font-family: "Montserrat";
   font-weight: 700;
   line-height: 1.2em;
-  color: #198754;
+  /* color: #198754; */
 }
 h5 {
   font-family: "Montserrat";
   font-weight: 500;
   line-height: 1rem;
   line-height: 1.2rem;
-  color: #198754;
+  /* color: #198754; */
 }
 .head-10 {
   font-size: 60px;
@@ -116,15 +116,19 @@ h5 {
 }
 
 #about-me .aboutMeHeader {
-  background-color: rgb(26, 25, 25);
-  box-shadow: 0px 0px 5px 1px #10482e;
+  /* background-color: rgb(26, 25, 25); */
+  /* box-shadow: 0px 0px 5px 1px #10482e; */
   width: 40%;
-  margin: auto;
-  height: 70px;
+  color: white;
+
   display: flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
+  padding-left: 10%;
+
+  /* text-align: center; */
+}
+
+.aboutMeHeader h2 {
+  font-size: 40px;
 }
 .about-box {
   display: grid;
@@ -153,10 +157,6 @@ h5 {
   margin-top: 10px;
 }
 
-/*nav bar */
-.nav-link:hover {
-  /* transform: scale(1.2); */
-}
 .gridItems:hover {
   /* background-color: rgb(146, 0, 0); */
   box-shadow: 0 0 5px 1px rgba(0, 255, 89, 0.46);
@@ -183,9 +183,6 @@ h5 {
   z-index: 1;
 }
 
-.navbar-nav {
-  font-size: 1.2rem;
-}
 .head-name {
   font-family: Montserrat;
   font-weight: 900;
@@ -251,7 +248,8 @@ h5 {
   grid-auto-flow: column;
   grid-template-columns: 450px, 450px;
   column-gap: 3rem;
-  justify-content: center;
+  /* justify-content: center; */
+  padding-left: 7%;
 }
 
 .gridContainer {
@@ -259,7 +257,7 @@ h5 {
   grid-row-gap: 1.5rem;
   grid-template-columns: repeat(3, 1fr);
   margin: 0 2%;
-  padding: 2% 3%;
+  padding: 2% 7%;
   row-gap: 2rem;
   text-align: center;
 }
@@ -269,11 +267,10 @@ h5 {
   text-align: center;
   justify-self: center;
   box-shadow: 0 0 5px 1px rgba(0, 164, 57, 0.46);
-  background-color: rgb(26, 25, 25);
   /* changed dark mode */
   padding: 5% 3%;
-  height: 200px;
-  width: 350px;
+  height: 300px;
+  width: 300px;
 }
 
 .project-desc {
@@ -292,26 +289,24 @@ h5 {
   background-color: rgb(26, 25, 25);
 }
 #projects {
-  background-color: #198754;
-  height: 585px;
+  /* background-color: #198754; */
+  /* height: 585px; */
 }
 #achievements {
   background-color: rgb(26, 25, 25);
 }
-#footers {
-  background-color: #196743;
-}
 #projects h2 {
   font-family: "Montserrat";
   font-weight: 900px;
-  color: #198754;
-  text-align: center;
-  font-size: 2rem;
+  color: white;
+  /* text-align: center; */
+  padding-left: 10%;
+  font-size: 40px;
   /* margin-top: 45px; */
 }
 #projects h3 {
   font-family: "Montserrat";
-  color: #198754;
+  /* color: #198754; */
   text-align: center;
 }
 
@@ -325,7 +320,6 @@ h5 {
   color: #999999;
 }
 .header {
-  height: 40px;
   margin: auto;
 }
 .my-info {
@@ -357,7 +351,9 @@ h5 {
 }
 .projectButton {
   font-size: 0.7rem;
-  margin: 10px 2px 0 0;
+  position: relative;
+  top: 60px;
+  left: 90px;
 }
 .input,
 .area {
@@ -380,11 +376,11 @@ h5 {
 /*footer */
 
 #footers {
-  height: 139px;
+  height: 600px;
   /* background-color: #002135; */
 }
 #footers i {
-  background: white;
+  /* background: white; */
   border-radius: 50%;
   width: 50px;
   height: 50px;
@@ -393,6 +389,7 @@ h5 {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  text-decoration: none;
 }
 h3.footer-name {
   color: white;
@@ -401,7 +398,7 @@ h3.footer-name {
 .footer-box {
   width: 100%;
   position: relative;
-  top: 15%;
+  top: 250px;
 }
 
 .footers {
@@ -419,13 +416,13 @@ h3.footer-name {
 /* skills-section */
 #skills {
   /* text-align: center; */
-
-  margin: auto;
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
   /* background-color: #002135; */
 }
 #skill {
-  text-align: center;
+  /* text-align: center; */
+  color: white;
+  font-size: 40px;
 }
 
 .gridSkill {
@@ -436,7 +433,7 @@ h3.footer-name {
 }
 .skills {
   font-size: 1.3rem;
-  color: #198754;
+  /* color: #198754; */
 }
 
 .html-bar {
@@ -486,9 +483,6 @@ h3.footer-name {
   height: 25px;
   position: relative;
 }
-.btn {
-  /* background-color: #007dca; */
-}
 .send-message {
   display: grid;
   margin: auto;
@@ -504,10 +498,14 @@ a:hover {
 #achievements {
   /* width: 60%; */
   height: 575px;
-  text-align: center;
+  /* text-align: center; */
+  padding-left: 10%;
   margin: auto;
 }
 
+#achievements h2 {
+  font-size: 40px;
+}
 /* .img-achievement {
   height: 50%;
 } */
@@ -720,9 +718,10 @@ a:hover {
   #contact-me {
     background-color: black;
   }
-  #footers {
-    background-color: #196743;
+  #projects {
+    height: 1200px;
   }
+
   .gridContainer {
     grid-template-columns: 450px 450px;
   }
@@ -746,9 +745,6 @@ a:hover {
     /* background-color: rgb(196, 167, 167);
      */
     box-shadow: 0 0 5px 1px rgba(0, 255, 89, 0.46);
-  }
-  .nav-link:hover {
-    /* transform: scale(1.01); */
   }
 
   .logo-skills {
@@ -774,9 +770,7 @@ a {
   #contact-me {
     background-color: black;
   }
-  #footers {
-    background-color: #196743;
-  }
+
   html {
     scroll-behavior: smooth;
   }
@@ -889,4 +883,14 @@ a {
     grid-auto-flow: row;
     grid-template-columns: repeat(2, 1fr);
   }
+}
+
+a {
+  text-decoration: none !important;
+}
+.connect-head {
+  text-align: center;
+  font-size: 3rem;
+  position: relative;
+  top: -130px;
 }

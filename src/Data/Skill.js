@@ -11,14 +11,16 @@ export const skillsDataLanguages = [
     level: "80%",
     qual: "Experienced",
     icon: "faHtml5",
-    color: "orangered",
+    color: "#F06529",
+    // color:"white"
   },
 
   {
     title: "CSS",
     level: "80%",
     qual: "Experienced",
-    color: "#264DE4",
+    // color: "#264DE4",
+    color: "white",
     icon: "faCss3Alt",
   },
 

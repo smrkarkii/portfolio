@@ -22,8 +22,8 @@ function App() {
       <About data={ExpData} />
       <Project data={ProjectsData} />
       <Skills data={SkillsData} />
-      <Achievement data={AchData} />
-      <Contact />
+      {/* <Achievement data={AchData} /> */}
+      {/* <Contact /> */}
       <Footer />
     </>
   );
