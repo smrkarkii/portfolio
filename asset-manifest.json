@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.f1a8638a.css",
+    "main.css": "/static/css/main.23344510.css",
     "main.js": "/static/js/main.ab51d3d1.js",
     "static/js/787.7da95b79.chunk.js": "/static/js/787.7da95b79.chunk.js",
     "static/media/prastab2.jpg": "/static/media/prastab2.1e0aec5d1770072fa61b.jpg",
@@ -13,12 +13,12 @@
     "static/media/git.svg": "/static/media/git.6d27b5e0cde4ddb87e031ca706aa8350.svg",
     "static/media/solidity.svg": "/static/media/solidity.1f3a3204f8988102f865f1b196afb694.svg",
     "static/media/vs.svg": "/static/media/vs.418abd4ed5e8e88d2f9d5f55338a9fa4.svg",
-    "main.f1a8638a.css.map": "/static/css/main.f1a8638a.css.map",
+    "main.23344510.css.map": "/static/css/main.23344510.css.map",
     "main.ab51d3d1.js.map": "/static/js/main.ab51d3d1.js.map",
     "787.7da95b79.chunk.js.map": "/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f1a8638a.css",
+    "static/css/main.23344510.css",
     "static/js/main.ab51d3d1.js"
   ]
 }
