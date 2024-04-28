@@ -51,6 +51,7 @@
 @media screen and (max-width: 480px) {
   .skills-wrapper {
     grid-template-columns: repeat(3, 1fr);
+    row-gap: 40px;
     /* Adjust column width for smaller screens */
   }
 
@@ -65,5 +66,9 @@
   }
   .connect-head {
     font-size: 2rem;
+  }
+  #experiences,
+  #educations {
+    padding: 0px;
   }
 }

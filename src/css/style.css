@@ -133,12 +133,10 @@ h5 {
 .about-box {
   display: grid;
 }
-
 #educations,
 #experiences {
-  /* padding: 40px; */
+  padding: 40px;
 }
-
 .container-fluid {
   margin: 0px;
   padding: 0px;
@@ -355,7 +353,7 @@ h5 {
 .projectButton {
   font-size: 0.7rem;
   position: relative;
-  top: 50px;
+  top: 10px;
   /* left: 90px; */
 }
 .input,
@@ -531,6 +529,10 @@ a:hover {
 
 /* For mobiles */
 @media (max-width: 480px) {
+  #educations,
+  #experiences {
+    padding: 0px;
+  }
   #projects,
   #intro,
   #about-me,
@@ -721,6 +723,10 @@ a:hover {
   #contact-me {
     background-color: black;
   }
+  #educations,
+  #experiences {
+    padding: 40px;
+  }
   #projects {
     height: 1200px;
   }
@@ -835,7 +841,7 @@ a {
   }
   .education-title,
   .experience-title {
-    /* padding-left: 18px; */
+    padding-left: 18px;
     /* text-align: center; */
   }
 
