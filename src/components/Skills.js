@@ -34,7 +34,7 @@ export default function Skills(props) {
             }}
           />
         </h2>
-        <div className="skill-small ">
+        <div className=" ">
           <h6 className="skill-type" style={{ color: "white" }}>
             Languages
           </h6>
