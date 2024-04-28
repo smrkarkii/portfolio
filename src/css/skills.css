@@ -3,7 +3,10 @@
   position: absolute;
   font-weight: 500;
 
-  top: 105px;
+  width: 80px;
+  margin: auto;
+
+  top: 110px;
 }
 
 .logo-icon {
@@ -13,14 +16,13 @@
   /* color: orangered; */
 }
 .indiv-skill {
+  position: relative;
   text-align: center;
   width: 80px;
   height: 100px;
+  /* margin: auto; */
   border-radius: 5%;
-  /* background-color: white; */
-  /* text-align: center; */
-
-  /* box-shadow: 1px 1px 1px 1px #198754; */
+  /* to center  */
 }
 
 .skill-type {
@@ -28,13 +30,15 @@
   /* text-decoration: underline; */
 }
 .skills-wrapper {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-  gap: 20px;
+  /* display: flex; */
+  display: grid;
+
+  grid-row-gap: 1.5rem;
+  grid-template-columns: repeat(10, 1fr);
   margin: 10px 0 10px 0;
   text-align: center;
-  position: relative;
+
+  /* position: relative; */
 }
 .skills-wrapper p {
   font-size: 0.9rem;
@@ -42,3 +46,24 @@
 /* .skills-languages {
   position: relative;
 } */
+
+/* mobile phones  */
+@media screen and (max-width: 480px) {
+  .skills-wrapper {
+    grid-template-columns: repeat(3, 1fr);
+    /* Adjust column width for smaller screens */
+  }
+
+  .skill-small {
+    margin-top: 70px;
+  }
+  .aboutMeHeader h2 {
+    font-size: 1.3rem;
+  }
+  #skill {
+    font-size: 1.3rem;
+  }
+  .connect-head {
+    font-size: 2rem;
+  }
+}

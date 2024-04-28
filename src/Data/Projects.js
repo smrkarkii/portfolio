@@ -28,7 +28,7 @@ export const projects = [
     lang: "HTML, CSS, JS",
     contrib: "Worked on both backend development",
     source: "https://github.com/smrkarkii/Football_League_Manager",
-    demo: "https://smrkarkii.github.io/Football_League_Manager/",
+    // demo: "https://smrkarkii.github.io/Football_League_Manager/",
   },
   {
     title: "Ask Out",

@@ -3,7 +3,7 @@ const Navbar = () => {
     <nav
       id="navbar-top"
       className="navbar navbar-expand-sm navbar-dark sticky-top  "
-      style={{ color: "#0583d2" }}
+      style={{ color: "#0583d2", backgroundColor: "black" }}
     >
       <a href="/" className="navbar-brand head-name">
         SmritiKarki{" "}
@@ -34,7 +34,7 @@ const Navbar = () => {
             </a>
           </li>
           <li className="nav-item">
-            <a className="nav-link" href="#contact-me">
+            <a className="nav-link" href="#footers">
               Contact
             </a>
           </li>

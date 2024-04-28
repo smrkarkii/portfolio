@@ -2,13 +2,13 @@
   background-color: #000000;
 } */
 body {
-  background-color: rgb(26, 25, 25);
+  background-color: black;
 }
 html {
   scroll-behavior: smooth;
 }
 .intro {
-  background-color: rgb(26, 25, 25);
+  background-color: black;
 }
 /* Add this to your stylesheet */
 .navbar-hidden {
@@ -102,10 +102,10 @@ h5 {
 
 /* about me page */
 #about-me {
-  /* background-color: #002135; */
+  /*background-color: black; */
   /* #darkmode changed */
   color: white;
-  background-color: rgb(26, 25, 25);
+  background-color: "rgb(26, 25, 25)";
 }
 #about-me .header-about {
   width: 70%;
@@ -116,9 +116,9 @@ h5 {
 }
 
 #about-me .aboutMeHeader {
-  /* background-color: rgb(26, 25, 25); */
+  /* background-color: "rgb(26, 25, 25)"; */
   /* box-shadow: 0px 0px 5px 1px #10482e; */
-  width: 40%;
+  /* width: 40%; */
   color: white;
 
   display: flex;
@@ -168,7 +168,7 @@ h5 {
 }
 .navbar {
   padding: 15px 150px;
-  /* background-color: #002135; */
+  /*background-color: black; */
   z-index: 1;
 
   opacity: 95%;
@@ -179,7 +179,7 @@ h5 {
   margin-top: 0;
   width: 100%;
   padding: 15px 150px;
-  background-color: #002135;
+  background-color: #000000;
   z-index: 1;
 }
 
@@ -201,7 +201,7 @@ h5 {
   height: 575px;
 }
 .introContainer {
-  background-color: rgb(26, 25, 25);
+  background-color: "rgb(26, 25, 25)";
   /* height: 650px; */
 }
 
@@ -210,7 +210,7 @@ h5 {
   margin-top: 0;
   width: 100%;
   padding: 15px 150px;
-  background-color: #002135;
+  background-color: black;
   z-index: 1;
 }
 
@@ -279,6 +279,9 @@ h5 {
   color: rgb(92 92 92);
   padding: 0 4% 2% 0;
 }
+.headeranddesc {
+  height: 130px;
+}
 
 #projects,
 #intro,
@@ -286,14 +289,14 @@ h5 {
 #achievements,
 #skills,
 #contact-me {
-  background-color: rgb(26, 25, 25);
+  background-color: "rgb(26, 25, 25)";
 }
 #projects {
   /* background-color: #198754; */
   /* height: 585px; */
 }
 #achievements {
-  background-color: rgb(26, 25, 25);
+  background-color: "rgb(26, 25, 25)";
 }
 #projects h2 {
   font-family: "Montserrat";
@@ -352,7 +355,7 @@ h5 {
 .projectButton {
   font-size: 0.7rem;
   position: relative;
-  top: 60px;
+  top: 50px;
   left: 90px;
 }
 .input,
@@ -377,7 +380,7 @@ h5 {
 
 #footers {
   height: 600px;
-  /* background-color: #002135; */
+  /*background-color: black; */
 }
 #footers i {
   /* background: white; */
@@ -417,7 +420,7 @@ h3.footer-name {
 #skills {
   /* text-align: center; */
   box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.2);
-  /* background-color: #002135; */
+  /*background-color: black; */
 }
 #skill {
   /* text-align: center; */
@@ -537,7 +540,7 @@ a:hover {
     background-color: black;
   }
   #footers {
-    background-color: #196743;
+    background-color: black;
   }
   html {
     scroll-behavior: smooth;
@@ -668,7 +671,7 @@ a:hover {
   }
   .gridItems {
     width: 280px;
-    height: 220px;
+
     row-gap: 1rem;
   }
 

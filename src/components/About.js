@@ -8,7 +8,13 @@ export default function About(props) {
     <section id="about-me">
       <div className="aboutMeHeader">
         <h2>
-          <b>ABOUT ME</b>{" "}
+          <b
+            style={{
+              width: "200px",
+            }}
+          >
+            ABOUT ME
+          </b>
           <hr
             style={{
               color: "white",

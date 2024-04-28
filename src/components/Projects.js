@@ -16,14 +16,15 @@ export default function Project(props) {
       <div className="gridContainer">
         {projects.map((project) => (
           <div className="gridItems project1">
-            <div className="header">
-              <h3 style={{ marginTop: "60px", color: "white" }}>
-                {project.title}
-              </h3>
+            <div className="headeranddesc">
+              <div className="header">
+                <h3 style={{ marginTop: "60px", color: "white" }}>
+                  {project.title}
+                </h3>
+              </div>
+
+              <p className="project-desc">{project["project-desc"]}</p>
             </div>
-
-            <p className="project-desc">{project["project-desc"]}</p>
-
             <div>{/* <h5>Languages Used</h5> */}</div>
             {/* 
             <span className="languages-used" style={{ color: "white" }}>
